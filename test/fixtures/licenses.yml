@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  country: MyString
+  category: MyString
+  cost: 9.99
+  description: MyText
+  language: MyString
+  keyword: MyString
+
+two:
+  country: MyString
+  category: MyString
+  cost: 9.99
+  description: MyText
+  language: MyString
+  keyword: MyString
