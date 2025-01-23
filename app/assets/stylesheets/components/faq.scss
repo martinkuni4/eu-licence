@@ -1,0 +1,52 @@
+// General styles for the FAQ section
+$primary-color: #013220;  // Very dark green
+$secondary-color: #ffffff;  // White background
+$text-color: #333333;  // Dark gray for readability
+$font-family: 'Arial', sans-serif;
+.faq {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+
+  .faq-item {
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+
+      .faq-question {
+          cursor: pointer;
+          color: $primary-color;
+          font-size: 1.3rem;
+          margin: 0;
+          padding: 10px;
+          background-color: #f0f0f0;
+          border-radius: 5px;
+          font-weight: bold;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+              background-color: lighten($primary-color, 40%);
+          }
+      }
+
+      .faq-answer {
+          display: none;
+          margin-top: 10px;
+          font-size: 1rem;
+          color: #555;
+          padding: 10px;
+          background-color: #f9f9f9;
+          border-radius: 5px;
+      }
+  }
+}
+
+// Optional: Add hover effect to FAQ question to indicate it's clickable
+.faq-item:hover {
+  background-color: #f2f2f2;
+}

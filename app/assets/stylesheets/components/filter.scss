@@ -1,0 +1,69 @@
+// Define colors
+$primary-color: #013220;  // Very dark green (primary color)
+$secondary-color: #ffffff;  // White (background)
+$button-color: #28a745;  // Green for buttons
+$button-hover-color: darken($button-color, 10%);  // Hover effect for buttons
+$input-border-color: #ccc;  // Light gray for input borders
+$text-color: #333;  // Dark text for readability
+
+// General form styling
+.filter-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: $secondary-color;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    .form-group {
+        margin-bottom: 20px;
+
+        .form-label {
+            font-size: 1.1rem;
+            color: $primary-color;
+            margin-bottom: 8px;
+            display: block;
+            font-weight: bold;
+        }
+
+        .form-select {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid $input-border-color;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+            color: $text-color;
+            transition: border-color 0.3s ease;
+
+            &:focus {
+                border-color: $primary-color;
+                outline: none;
+            }
+        }
+    }
+
+    .form-submit {
+        background-color: $button-color;
+        color: $secondary-color;
+        padding: 12px 20px;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: $button-hover-color;
+        }
+    }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+    .filter-form {
+        padding: 20px;
+        max-width: 100%;
+    }
+}

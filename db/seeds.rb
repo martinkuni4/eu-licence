@@ -8,51 +8,7 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-require 'cloudinary'
+require 'open-uri'
 
-# UK Driving License
-uk_license = License.create!(
-  country: 'UK',
-    keyword: "Buy driver's license",
-  category: 'Car',
-  cost: 1200.50,
-  description: 'Full UK driving license, includes theory and practical tests.',
-  language: 'en'
-)
-
-uk_license.photos.attach([
-  { io: URI.open('https://res.cloudinary.com/your_cloud/image/upload/v123456789/uk_license_1.jpg'), filename: 'uk_license_1.jpg' },
-  { io: URI.open('https://res.cloudinary.com/your_cloud/image/upload/v123456789/uk_license_2.jpg'), filename: 'uk_license_2.jpg' }
-])
-
-# Germany Driving License
-de_license = License.create!(
-  country: 'Germany',
-  keyword: "Führerschein kaufen",
-  category: 'Car',
-  cost: 1500.00,
-  description: 'Deutscher Führerschein, inklusive Theorie- und Fahrprüfung.',
-  language: 'de'
-)
-
-de_license.photos.attach([
-  { io: URI.open('https://res.cloudinary.com/your_cloud/image/upload/v123456789/de_license_1.jpg'), filename: 'de_license_1.jpg' },
-  { io: URI.open('https://res.cloudinary.com/your_cloud/image/upload/v123456789/de_license_2.jpg'), filename: 'de_license_2.jpg' }
-])
-
-# Hungary Driving License
-hu_license = License.create!(
-  country: 'Hungary',
-  category: 'Car',
-  cost: 1100.00,
-  description: 'Magyar jogosítvány, elméleti és gyakorlati vizsgával.',
-  language: 'hu'
-)
-
-hu_license.photos.attach([
-  { io: URI.open('https://res.cloudinary.com/your_cloud/image/upload/v123456789/hu_license_1.jpg'), filename: 'hu_license_1.jpg' },
-  { io: URI.open('https://res.cloudinary.com/your_cloud/image/upload/v123456789/hu_license_2.jpg'), filename: 'hu_license_2.jpg' },
-  { io: URI.open('https://res.cloudinary.com/your_cloud/image/upload/v123456789/hu_license_3.jpg'), filename: 'hu_license_3.jpg' }
-])
-
-puts "Seed data added successfully!"
+# require_relative "seeds/licenses.rb"
+require_relative "seeds/review.rb"
