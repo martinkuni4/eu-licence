@@ -81,7 +81,7 @@ hu:
         classes: "Vegyél részt elméleti felkészítő óráinkon."
         apps: "Használjon vezetési alkalmazásokat és útmutatókat az extra gyakorláshoz."
     footer_text: "Az előnyben részesített órai időpontok biztosítása érdekében azt javasoljuk, hogy előre foglaljon."
-contact:
+  contact:
     title: "Lépjen kapcsolatba velünk"
     name: "Név"
     phone: "Telefonszám"

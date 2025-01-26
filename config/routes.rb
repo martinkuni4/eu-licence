@@ -12,6 +12,7 @@ Rails.application.routes.draw do
       resources :licenses, only: [:index, :show], param: :slug do
         collection do
           get 'about'
+          get 'faq'
         end
       end
     end

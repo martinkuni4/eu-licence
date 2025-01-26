@@ -1,4 +1,5 @@
 # UK Driving License
+
 uk_license = License.create!(
   country: 'UK',
   keyword: "Buy drivers license",
@@ -48,14 +49,29 @@ hu_license = License.create!(
   description: 'Vásárolni jogosítványt. A jogosítvány vásárlása nagyon is valóságos. Progresszív jogosítványtervet hoztunk létre a Magyarország (Európa) kihívásokkal teli jogosítványrendszerének eredményeként. Szakterület a traumatikus. Ez azt jelenti, hogy akinek problémái vannak, vagy megbukik a vezetői vizsga elméleti részében, az élvezheti megbízható és kockázatmentes szolgáltatásunkat.
     Biztos lehet benne, hogy ha velünk dolgozik, vizsga letétele nélkül, akkor egy hiteles, névre szóló és nagyon előnyös jogosítványt kap, amely szerepel az összes releváns jogosítvány adatbázisban, valamint a számos magyarországi autósiskola, amellyel együttműködünk. vel. 2014 vége óta, weboldalunk megjelenése óta minden ügyfelünk elégedett. Ne késlekedjen tovább.',
   language: 'hu',
-  requirements: "Vásároljon jogosítványt B. Azt keresi, hol vásárolhat jogosítványt? névre szóló jogosítványt vásárolni vizsga nélkül 7 nap alatt. Vásároljon jogosítványt online. A jogosítvány legális vásárlása Európában sokak számára nagyon nehéz feladattá vált, hogyan szerezzenek jogosítványt vizsga letétele nélkül. Lehetőséget kínálunk Önnek, hogy problémamentesen vásároljon valódi és regisztrált norvég vezetői engedélyt, amely az adatbázisban szerepel. Vásároljon regisztrált jogosítványt online. vásárolni jogosítványt",
+  requirements: "Egy egyszerű szabály a vezetői engedély kezdeti felfüggesztésének megakadályozására.
+    Egyes ügyfelek, akik az eredeti jogosítványt erről az oldalról vásárolják, visszatérnek annak felfüggesztése miatt. Ez általában bizonyos alapvető szabályok figyelmen kívül hagyása miatt történik, amelyekre szeretnénk emlékeztetni:
+
+    Ne vezessen alkohol vagy kábítószer hatása alatt. Ez a szabály védi a jogosítványát és az életét is.
+
+    Tartsa be a közlekedési táblákat. Ezek figyelmen kívül hagyása nemcsak pénzbírságba kerülhet, hanem a biztonságát is veszélyezteti.
+
+    Tartsa be a sebességkorlátozást, és legyen óvatos rossz időben. Így csökkenti a balesetek kockázatát.
+
+    A jogosítvány mindig legyen nálad, ha úton van. Ez megakadályozza a szükségtelen szövődményeket.
+
+    Ne felejtse el megújítani az engedélyét, mielőtt lejár. A problémák elkerülése érdekében időben küldje be jelentkezését.
+
+    Néhány elméleti és gyakorlati leckét ajánlunk. Bár nem kell letennie vezetői vizsgát ahhoz, hogy jogosítványát megvásárolja tőlünk, a tudás segít a biztonságban.
+
+    Ide kattintva kapcsolatba léphet velünk, és megoszthatja történetét másokkal.",
   keyword: "Regisztrált jogosítvány vásárlás"
 )
 
 hu_license.photos.attach([
   { io: URI.open('https://res.cloudinary.com/daa1jg6ga/image/upload/v1737501682/IMG_9481_enrhqt.jpg'), filename: 'hu_license_1.jpg' },
-  { io: URI.open('https://res.cloudinary.com/daa1jg6ga/image/upload/v1737501672/F752C476-B74B-489A-BF03-454DE48FC9E0_kolmzs.jpg'), filename: 'hu_license_2.jpg' },
-  { io: URI.open('https://res.cloudinary.com/daa1jg6ga/image/upload/v1737501677/IMG_9486_mtjj2j.jpg'), filename: 'hu_license_3.jpg' }
+  { io: URI.open('https://res.cloudinary.com/daa1jg6ga/image/upload/v1737501677/IMG_9486_mtjj2j.jpg'), filename: 'hu_license_3.jpg' },
+  { io: URI.open('https://res.cloudinary.com/daa1jg6ga/image/upload/v1737501672/F752C476-B74B-489A-BF03-454DE48FC9E0_kolmzs.jpg'), filename: 'hu_license_2.jpg' }
 ])
 
 # Austria Driving License
@@ -65,7 +81,18 @@ at_license = License.create!(
   cost: 1000.00,
   description: 'Österreich führerschein. Um einen österreichischen Führerschein zu erhalten, sind bestimmte Voraussetzungen notwendig. Zuerst wählen Sie die Fahrschule aus. Davon gibt es in Österreich jede Menge, Führerschein Österreich Kosten und es ist nicht notwendig, den Knochen zu besuchen, der sich am Ort der Einschreibung befindet. Wenn die Fahrschule ausgewählt ist, schreibt der Autofahrersuchende eine Operation führerschein.
     Die darin enthaltenen Daten werden in das Sonderführerscheinregister eingetragen. Das heißt, alle Formalitäten werden von der Fahrschule selbst erledigt. Kaufen Sie einen authentischen Führerschein. Ohne Halbzeitpause vor Erreichen des Mindestalters kann man nicht mit der Ausbildung in einer Fahrschule beginnen. Kann man einen Führerschein kaufen, ohne die Prüfung abzulegen? Ja. Beim gängigsten B-Führerschein liegt dieses Alter bei 18 Jahren. Die Zulassung zur Ausbildung kann somit frühestens mit 17,5 Jahren erlangt werden führerschein kaufen österreich.',
-  requirements: 'Mindestalter 18 Jahre, theoretische Prüfung, ärztliche Untersuchung.',
+  requirements: 'Die Erlangung eines Führerscheins in Österreich erfordert einiges an Aufwand. Neben den hohen Kosten und der zeitintensiven theoretischen und praktischen Ausbildung müssen Sie ein ärztliches Gutachten vorlegen, eine Unterweisung in lebensrettenden Notfallmaßnahmen erhalten und die theoretische und praktische Prüfung zur Erlangung des Führerscheins bestehen.
+    Bei unserer Agentur können Sie Ihren neuen österreichischen Führerschein schnell und ohne Prüfung bestellen. Bei uns erhalten Sie Ihren Führerschein in nur 3 Tagen.
+
+    Die legale Erlangung eines Führerscheins in Österreich ist mit viel Bürokratie und Kosten verbunden. Bevor Sie mit der Fahrschule beginnen können, müssen Sie einen Antrag stellen.
+
+    Die durchschnittlichen Kosten für einen Führerschein der Klasse B in Österreich betragen 2.000 €. Dies ist nur eine grobe Schätzung, da die Kosten regional sehr unterschiedlich sind und vom einzelnen Bewerber und der Anzahl der benötigten Fahrstunden abhängen.
+
+    Österreichischen Führerschein kaufen | Österreichischen Führerschein kaufen | Führerschein in Österreich kaufen | Österreichischer Führerschein zu verkaufen | Österreichischen Führerschein online kaufen
+
+    Spätestens vor Beginn des Theorieunterrichts muss mit dem Antrag ein ärztliches Attest zur Erlangung eines österreichischen Führerscheins eingereicht werden. Zusätzlich muss ein Erste-Hilfe-Kurs absolviert werden.
+
+    Bei bestandener Prüfung erhältst Du zunächst einen vorläufigen, nur in Österreich gültigen Führerschein, bevor nach Begleichung aller Kosten der endgültige Kreditkartenführerschein ausgestellt wird.',
   keyword: "Führerschein kaufen",
   language: 'de'
 )
@@ -98,7 +125,7 @@ puts "Seed data added successfully!"
 netherlands_license = License.create!(
   country: 'Netherlands',
   category: 'Car',
-  cost: 1600.00,
+  cost: 900.00,
   description: 'Mensen hebben verschillende redenen waarom ze ervoor kiezen om in plaats daarvan een NEDERLANDS rijbewijs te kopen. Sommigen voldoen niet aan alle vereisten om een ​​rijbewijs aan te vragen. De beslissing om uw rijbewijs online in het Nederlands te kopen, is geheel aan u, aangezien velen deze kaart liever online kopen dan naar school te gaan en examens af te leggen. Maar zoals velen al weten, creëert de theorie veel problemen en voorkomt het dat veel mensen hun rijbewijs in het Nederlands en andere delen van Europa halen. Sommigen vinden het moeilijk om de cursus voor het Nederlandse rijbewijs te halen. Koop uw rijbewijs. Koop een rijbewijs categorie B. Koop een motorrijbewijs. rijbewijs kopen.',
   requirements: 'De hedendaagse rijbewijsprocedure kan zo ingewikkeld zijn dat sommige mensen zich gedwongen voelen hun toevlucht elders te zoeken. Maar wij bieden een innovatieve oplossing.
     Onze focus ligt op het verstrekken van rijbewijzen die geldig zijn in zowel België als Nederland. Wat dit nog aantrekkelijker maakt? Deze vergunningen bieden de mogelijkheid om kosteloos te worden omgezet naar een ander Europees rijbewijs van uw keuze.
@@ -147,9 +174,10 @@ netherlands_license.photos.attach([
 france_license = License.create!(
   country: 'France',
   category: 'Car',
-  cost: 1500.00,
+  cost: 1050.00,
   description: 'Nous sommes une équipe enthousiaste avec beaucoup d’expérience et de savoir-faire dans la production et la délivrance de documents européens, notamment le permis de conduire et bien d’autres documents français. Alternativement, nous vous permettons d’acheter de vrais documents en ligne à moindre coût et sans stress, selon vos besoins particuliers et sur demande. L’idée d’acheter un permis de conduire en ligne signifie en réalité que vous n’avez pas à passer par le processus d’inscription habituel. Vous n’avez pas besoin de passer d’examens (théoriques et pratiques). La plateforme dispose de tous les agents nécessaires pour rendre votre permis de conduire valide, même sans votre présence. Il vous suffit de passer commande de votre permis de conduire, de fournir les documents nécessaires, et de le récupérer auprès de votre commune dans un délai de sept jours. Acheter un permis de conduire en ligne. Acheter un permis de conduire.',
-  requirements: 'Âge minimum 18 ans, examen médical et théorique.',
+  requirements: 'Nous sommes une équipe enthousiaste avec beaucoup d’expérience et de savoir-faire dans la production et la délivrance de documents européens, notamment le permis de conduire et bien d’autres documents français. Alternativement, nous vous permettons d’acheter de vrais documents en ligne à moindre coût et sans stress, selon vos besoins particuliers et sur demande. L’idée d’acheter un permis de conduire en ligne signifie en réalité que vous n’avez pas à passer par le processus d’inscription habituel. Vous n’avez pas besoin de passer d’examens (théoriques et pratiques). La plateforme dispose de tous les agents nécessaires pour rendre votre permis de conduire valide, même sans votre présence. Il vous suffit de passer commande de votre permis de conduire, de fournir les documents nécessaires, et de le récupérer auprès de votre commune dans un délai de sept jours. Acheter un permis de conduire en ligne. Acheter un permis de conduire.
+    Si vous êtes sur ce site, il vous faudra moins d’une heure pour être pleinement convaincu d’obtenir votre permis de conduire en sept jours, car nous offrons le meilleur service à nos citoyens, tant à l’étranger qu’au pays. Vous n’avez pas forcément besoin de vous déplacer pour obtenir votre permis de conduire; notre système en ligne vous aidera à mieux comprendre notre fonctionnement. Nous travaillons directement avec la mairie et veillons à ce que ce que nous vous proposons soit 100% enregistré et légal. Cliquez sur le bouton WhatsApp ci-dessous ou envoyez-nous simplement un e-mail via le formulaire de contact ci-dessous et sur la page de contact de ce site Web. Acheter un permis de conduire.',
   keyword: 'Acheter un permis de conduire',
   language: 'fr'
 )
@@ -193,15 +221,18 @@ france_license.photos.attach([
 belgium_license = License.create!(
   country: 'Belgium',
   category: 'Car',
-  cost: 1550.00,
-  description: 'Belgisch rijbewijs met theorie- en praktijkexamens.',
-  requirements: 'Minimale leeftijd 18 jaar, medische keuring, theoretisch examen.',
+  cost: 1050.00,
+  description: 'We streven ernaar het proces voor u te vereenvoudigen, zodat u met gemak en zekerheid uw rijbewijs kunt verkrijgen. Rijd legaal in een auto, waardoor je met vertrouwen de wegen kunt betreden in overeenstemming met de wet. Huur een voertuig voor reizen of andere behoeften, waardoor je jouw reizen handig en stressvrij kunt maken.
+    Je rijbewijs is niet alleen een toegangsticket tot de weg; het is een veelzijdig identificatiedocument dat deuren opent naar verschillende kansen. Daarnaast is de prijs van een rijbewijs een investering in de mogelijkheid om je verzekeringsdekking te behouden als je ooit betrokken raakt bij een auto-ongeluk, wat je geruststelling en ondersteuning biedt tijdens onvoorziene omstandigheden.',
+  requirements: 'Online Rijbewijs Aanschaffen Gewoonlijk wordt het verkrijgen van een rijbewijs gestart vanaf de leeftijd van 18 jaar, met enkele uitzonderingen, zoals het AM-rijbewijs in de meeste Europese Unie-landen, dat het besturen van bromfietsen tot 45 km/u vanaf 14 jaar mogelijk maakt. U kunt nu eenvoudig een rijbewijs online verkrijgen en lid worden van de rijbewijshoudende gemeenschap. Ontdek hier de stappen om dit te bereiken. Koop nu uw rijbewijs online.
+    In tegenstelling tot wat velen denken, is een internationaal rijbewijs simpelweg een vertaling van een nationaal rijbewijs in meerdere talen. Het stelt de houder ervan in staat om zelfstandig te rijden in landen die dit erkennen. Omdat het internationale rijbewijs maximaal drie jaar geldig is, moet het samen gebruikt worden met een geldige nationale rijvergunning. Koop nu uw rijbewijs online. Neem vandaag nog contact met ons op om uw rijbewijs te verkrijgen. Ongeacht uw afkomst, of u nu uit het noorden, zuiden, oosten of westen komt, uit Europa, Azië, Amerika of Afrika, het aanschaffen van een Nederlands, Duits, Oostenrijks, Frans, Belgisch of Zwitsers rijbewijs via deze website zou een uitstekende kans voor u kunnen zijn.',
   keyword: 'rijbewijs kopen',
   language: 'nl'
 )
 
 belgium_license.photos.attach([
-  { io: URI.open('https://res.cloudinary.com/daa1jg6ga/image/upload/v1737502486/belgian-license_jqm9wx.jpg'), filename: 'belgium_license_1.jpg' }
+  { io: URI.open('https://res.cloudinary.com/daa1jg6ga/image/upload/v1737502486/belgian-license_jqm9wx.jpg'), filename: 'belgium_license_1.jpg' },
+  { io: URI.open('https://res.cloudinary.com/daa1jg6ga/image/upload/v1737852959/be-be7-sf09a-lr_iei3eq.jpg'), filename: 'belgium_license_1.jpg' }
 ])
 
 # Sweden

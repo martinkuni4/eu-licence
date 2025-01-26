@@ -9,7 +9,7 @@
     <div class="promo-content">
       <h2><%= @license.keyword %></h2>
       <%= @license.description  %>
-      <button class="btn-cta">Contact</button>
+      <%= button_to t('index.contact_us'), new_contact_path, class: 'btn-cta', method: :get %>
     </div>
     <div class="promo-image">
       <%= image_tag @license.photos[0], alt: @license.keyword  %>
@@ -21,7 +21,6 @@
     </div>
     <div class="promo-image">
       <%= image_tag @license.photos[1], alt: @license.keyword, style: "max-height: 300px;"  %>
-      <%= image_tag @license.photos[2], alt: @license.keyword, style: "max-height: 300px;"  %>
     </div>
   </div>
 <div id="reviews-container" data-controller="scroll">

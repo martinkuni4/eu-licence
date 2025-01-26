@@ -82,7 +82,7 @@ de:
         classes: "Besuchen Sie unsere Theorievorbereitungskurse."
         apps: "Nutzen Sie Fahr-Apps und Leitfäden für zusätzliche Übung."
     footer_text: "Wir empfehlen, im Voraus zu buchen, um Ihre bevorzugten Unterrichtszeiten zu sichern."
-contact:
+  contact:
     title: "Kontaktiere uns"
     name: "Dein Name"
     phone: "Telefonnummer"

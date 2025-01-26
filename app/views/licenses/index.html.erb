@@ -11,7 +11,7 @@
   <% end %>
 
 
-    <button class="btn-cta"><%= t('index.contact_us') %></button>
+    <%= button_to t('index.contact_us'), new_contact_path, class: 'btn-cta', method: :get %>
   </div>
 </div>
 
