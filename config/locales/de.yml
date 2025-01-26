@@ -1,5 +1,92 @@
 de:
-  license:
-    car: "Auto-Führerschein"
-    cost: "Kosten"
-    description: "Beschreibung"
+  index:
+    title: "Kaufen Sie einen echten und registrierten Führerschein ohne Prüfungen"
+    description: "Wir sind das beste Unternehmen in Europa und haben uns in vielen Märkten als die Besten bewiesen. Und wir werden unsere Kunden zufriedenstellen."
+    filter_by_country: "Nach Land filtern:"
+    filter_button: "Filter"
+    contact_us: "Kontaktieren Sie uns"
+  licenses:
+    heading: "Originaler und authentischer Führerschein"
+  challenges:
+    title: "Herausforderungen beim Erwerb eines Führerscheins in Europa"
+    content: "Der Erwerb eines Führerscheins in Europa kann aufgrund strenger Vorschriften und anspruchsvoller Prüfverfahren ein komplexer und herausfordernder Prozess sein."
+    list:
+      - "Hohe Kosten: Fahrstunden, theoretische Prüfungen und praktische Tests können teuer sein, wobei die Kosten je nach Land erheblich variieren."
+      - "Strenge Prüfungsanforderungen: Viele europäische Länder haben schwierige theoretische Prüfungen und praktische Tests, die eine umfangreiche Vorbereitung erfordern."
+      - "Lange Wartezeiten: In einigen Regionen müssen Bewerber lange Wartezeiten für die Terminierung der Tests in Kauf nehmen, was den gesamten Prozess verzögern kann."
+      - "Sprachbarrieren: Für Expatriates und Einwanderer kann das Ablegen von Prüfungen in einer Fremdsprache eine große Hürde darstellen."
+      - "Unterschiedliche Vorschriften: Verschiedene Verkehrsregeln und Straßenverhältnisse in den Ländern erschweren es den Menschen, sich innerhalb Europas anzupassen."
+    conclusion: "Trotz dieser Herausforderungen wird der europäische Führerschein hoch geschätzt, da er Zugang zu einem gut ausgebauten Straßennetz bietet und in mehreren Ländern anerkannt ist."
+  driving_school:
+    title: "Erhalten Sie Ihren Führerschein mit unserer erstklassigen Fahrschule"
+    description: "Möchten Sie Ihre Fahrprüfung mit Vertrauen bestehen? Unsere professionelle Fahrschule bietet eine fachkundige Ausbildung, um Sie zu einem sicheren und kompetenten Fahrer zu machen."
+    why_choose:
+      title: "Warum unsere Fahrschule wählen?"
+      list:
+        - "Erfahrene Fahrlehrer: Unsere zertifizierten und geduldigen Fahrlehrer sorgen für eine erstklassige Ausbildung."
+        - "Flexible Terminplanung: Wählen Sie Unterrichtszeiten, die zu Ihrem geschäftigen Lebensstil passen."
+        - "Erschwingliche Preise: Wir bieten wettbewerbsfähige Preise und Sonderpakete für neue Fahrschüler."
+        - "Moderne Fahrzeuge: Lernen Sie das Fahren in gut gewarteten, doppelt gesteuerten Autos für Ihre Sicherheit."
+        - "Hohe Bestehensquoten: Unsere bewährten Lehrmethoden helfen den Schülern, ihre Fahrprüfungen mühelos zu bestehen."
+    services:
+      title: "Unsere Fahrschul-Dienstleistungen"
+      list:
+        - "Fahranfänger-Kurse: Perfekt für neue Fahrer, die Vertrauen hinter dem Steuer aufbauen möchten."
+        - "Defensiv-Fahrkurse: Lernen Sie fortgeschrittene Techniken, um sicher auf der Straße zu bleiben."
+        - "Automatik- und Schaltwagenunterricht: Wählen Sie das Fahrzeug, das Ihren Vorlieben am besten entspricht."
+        - "Probe-Fahrprüfungen: Bereiten Sie sich mit realistischen Übungseinheiten auf Ihre offizielle Fahrprüfung vor."
+        - "Intensiv-Fahrkurse: Beschleunigen Sie Ihr Lernen mit unseren Schnelllernprogrammen."
+    how_to_get_started:
+      title: "Wie man beginnt"
+      steps:
+        - "Kostenlose Beratung buchen: Kontaktieren Sie uns, um Ihre Fahrziele zu besprechen."
+        - "Ein Unterrichtspaket wählen: Wählen Sie den besten Plan, der Ihren Bedürfnissen und Ihrem Budget entspricht."
+        - "Starten Sie Ihren Unterricht: Unsere freundlichen Fahrlehrer begleiten Sie bei jedem Schritt."
+        - "Bestehen Sie Ihre Prüfung: Mit unserer fachkundigen Ausbildung sind Sie bereit für Ihre Fahrprüfung."
+  testimonials:
+    title: "Kundenbewertungen"
+    content: "Vertrauen Sie nicht nur auf unser Wort – hören Sie von unseren zufriedenen Kunden! Mit Tausenden von geprüften Bewertungen gewährleisten wir Transparenz und Vertrauenswürdigkeit."
+
+  faq:
+    title: "Häufig gestellte Fragen (FAQs)"
+    q1:
+      question: "Wie lange dauert es, einen Führerschein zu erhalten?"
+      answer_html: "Die benötigte Zeit hängt von der Lerngeschwindigkeit, der Unterrichtshäufigkeit und den Vorschriften des Landes ab. Die meisten Fahrschüler benötigen <strong>20 bis 40 Stunden</strong> professionelle Anleitung."
+    q2:
+      question: "Was sind die Voraussetzungen, um mit Fahrstunden zu beginnen?"
+      answer_intro: "Um mit dem Fahrunterricht zu beginnen, müssen Sie die folgenden Kriterien erfüllen:"
+      requirements:
+        age: "Seien Sie im Mindestalter für das Fahren (z.B. <strong>17 Jahre</strong> in den meisten europäischen Ländern)."
+        permit: "Besitzen Sie einen gültigen vorläufigen Führerschein oder eine Lernerlaubnis."
+        eyesight: "Bestehen Sie einen Sehtest, um sicherzustellen, dass Sie die erforderlichen Standards erfüllen."
+        id_documents: "Stellen Sie einen Identitätsnachweis wie einen Reisepass oder Personalausweis bereit."
+    q3:
+      question: "Benötige ich einen vorläufigen Führerschein, um mit dem Lernen zu beginnen?"
+      answer_html: "Ja, in den meisten Ländern ist ein <strong>vorläufiger Führerschein</strong> erforderlich, bevor Sie auf öffentlichen Straßen fahren dürfen."
+    q4:
+      question: "Welche Fahrzeugtypen kann ich lernen zu fahren?"
+      answer_intro: "Unsere Fahrschule bietet Schulungen für verschiedene Fahrzeugtypen an, darunter:"
+      vehicle:
+        manual: "Schaltgetriebene Autos."
+        automatic: "Automatikgetriebene Autos."
+        electric: "Elektrofahrzeuge (EVs)."
+    q5:
+      question: "Wie viel kosten Fahrstunden?"
+      answer_html: "Die Kosten variieren je nach Dauer und Paket. Die Preise liegen zwischen <strong>30 und 50 Euro pro Stunde</strong>."
+    q6:
+      question: "Wie kann ich mich auf die Theorieprüfung vorbereiten?"
+      answer_intro: "Zur erfolgreichen Theorieprüfung empfehlen wir:"
+      prep:
+        study: "Studieren Sie das offizielle Fahrhandbuch."
+        practice: "Machen Sie Online-Übungstests."
+        classes: "Besuchen Sie unsere Theorievorbereitungskurse."
+        apps: "Nutzen Sie Fahr-Apps und Leitfäden für zusätzliche Übung."
+    footer_text: "Wir empfehlen, im Voraus zu buchen, um Ihre bevorzugten Unterrichtszeiten zu sichern."
+contact:
+    title: "Kontaktiere uns"
+    name: "Dein Name"
+    phone: "Telefonnummer"
+    email: "E-Mail-Adresse"
+    location: "Dein Standort"
+    message: "Deine Nachricht"
+    submit: "Absenden"

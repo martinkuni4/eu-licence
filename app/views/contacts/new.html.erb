@@ -1,0 +1,32 @@
+<%= form_with url: contacts_path, method: :post, local: true do |form| %>
+  <h2><%= t('contact.title') %></h2>
+
+  <div class="form-group">
+    <%= form.label :name, t('contact.name') %>
+    <%= form.text_field :name, class: 'form-control', required: true %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :phone, t('contact.phone') %>
+    <%= form.text_field :phone, class: 'form-control', required: true %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :email, t('contact.email') %>
+    <%= form.email_field :email, class: 'form-control', required: true %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :location, t('contact.location') %>
+    <%= form.text_field :location, class: 'form-control', required: true %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :message, t('contact.message') %>
+    <%= form.text_area :message, class: 'form-control', rows: 5, required: true %>
+  </div>
+
+  <div class="form-group">
+    <%= form.submit t('contact.submit'), class: 'btn btn-primary' %>
+  </div>
+<% end %>

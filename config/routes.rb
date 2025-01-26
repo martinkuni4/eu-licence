@@ -9,8 +9,14 @@ Rails.application.routes.draw do
     root 'licenses#index'
 
     scope "(:locale)", locale: /en|de|hu/ do
-      resources :licenses, only: [:index, :show]
+      resources :licenses, only: [:index, :show], param: :slug do
+        collection do
+          get 'about'
+        end
+      end
     end
+    resources :contacts, only: [:index, :new, :create]
+
 
 
 

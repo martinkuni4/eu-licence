@@ -2,7 +2,62 @@
     <div class="hero-about-overlay"></div>
     <div class="hero-about-text">
       <h1><%=@license.keyword%></h1>
-      <p>We are the best company in Europe, and have proven ourselves in many markets as the best. And we will satisfy our customers.</p>
-
+      <p><%= t('index.description') %></p>
     </div>
   </div>
+<div class="used-car-promo">
+    <div class="promo-content">
+      <h2><%= @license.keyword %></h2>
+      <%= @license.description  %>
+      <button class="btn-cta">Contact</button>
+    </div>
+    <div class="promo-image">
+      <%= image_tag @license.photos[0], alt: @license.keyword  %>
+    </div>
+  </div>
+<div class="used-car-promo">
+    <div class="promo-content">
+      <%= @license.requirements %>
+    </div>
+    <div class="promo-image">
+      <%= image_tag @license.photos[1], alt: @license.keyword, style: "max-height: 300px;"  %>
+      <%= image_tag @license.photos[2], alt: @license.keyword, style: "max-height: 300px;"  %>
+    </div>
+  </div>
+<div id="reviews-container" data-controller="scroll">
+  <h2 style="text-align: center; margin: 10px;">Testimonials From Clients</h2>
+      <p style="text-align: center;">
+        Don’t just take our word for it—hear from our happy customers!
+        With thousands of verified reviews, we ensure transparency and trustworthiness
+      </p>
+
+  <div class="reviews-row" data-scroll-target="row">
+    <% @reviews.each do |review| %>
+      <div class="review-card">
+        <% if review.photo.attached? %>
+          <%= image_tag review.photo, alt: review.name, class: "review-photo" %>
+        <% end %>
+        <div class="review-content">
+          <p class="review-author">By <%= review.name %></p>
+          <div class="review-rating">
+            <% review.rating.times do %>
+              <i class="fas fa-star yellow-star"></i>
+            <% end %>
+            <% (5 - review.rating).times do %>
+              <i class="fas fa-star grey-star"></i>
+            <% end %>
+          </div>
+          <p class="review-text"><%= review.comment%></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <button class="carousel-button left" data-action="click->scroll#slideLeft">
+    <i class="fas fa-chevron-left"></i>
+  </button>
+  <button class="carousel-button right" data-action="click->scroll#slideRight">
+    <i class="fas fa-chevron-right"></i>
+  </button>
+</div>
+
+<%= render "shared/faq" %>

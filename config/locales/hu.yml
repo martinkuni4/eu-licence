@@ -1,5 +1,91 @@
 hu:
-  license:
-    car: "Autós jogosítvány"
-    cost: "Költség"
-    description: "Leírás"
+  index:
+    title: "Vásároljon valódi és regisztrált jogosítványt vizsga nélkül"
+    description: "Mi vagyunk a legjobb vállalat Európában, és számos piacon bizonyítottuk, hogy a legjobbak vagyunk. És elégedettek leszünk ügyfeleinkkel."
+    filter_by_country: "Szűrés ország szerint:"
+    filter_button: "Szűrő"
+    contact_us: "Lépjen kapcsolatba velünk"
+  licenses:
+    heading: "Eredeti és hiteles jogosítvány"
+  challenges:
+    title: "A jogosítvány megszerzésével kapcsolatos kihívások Európában"
+    content: "A vezetői engedély megszerzése Európában a szigorú előírások és a szigorú vizsgálati eljárások miatt összetett és kihívásokkal teli folyamat lehet."
+    list:
+      - "Magas költségek: A vezetési órák, az elméleti vizsgák és a gyakorlati vizsgák drágák lehetnek, a költségek országonként jelentősen eltérnek."
+      - "Szigorú tesztelési követelmények: Sok európai országban vannak nehéz elméleti vizsgák és gyakorlati vizsgák, amelyek alapos felkészülést igényelnek."
+      - "Hosszú várakozási idő: Egyes régiókban a jelentkezőknek hosszú várakozási idővel kell szembenézniük a tesztek ütemezésére, ami késleltetheti a teljes folyamatot."
+      - "Nyelvi akadályok: A kivándorlók és a bevándorlók számára az idegen nyelvű tesztek letétele komoly akadályt jelenthet."
+      - "Változó szabályozás: Az országokban eltérő közlekedési törvények és útviszonyok megnehezítik az Európán belül mozgó emberek számára az alkalmazkodást."
+    conclusion: "A kihívások ellenére az európai vezetői engedély megszerzését nagyra értékelik, mivel hozzáférést biztosít egy jól fejlett úthálózathoz, és több országban is elismertséget biztosít."
+  driving_school:
+    title: "Szerezze meg jogosítványát legjobb minősítésű autósiskolánkban"
+    description: "Magabiztosan szeretné letenni a vezetői vizsgát? Professzionális autósiskolánk szakértői képzést kínál, hogy Ön biztonságos és képzett sofőrré váljon."
+    why_choose:
+      title: "Miért válassza Autósiskolánkat?"
+      list:
+      - "Tapasztalt oktatók: Minősített és türelmes oktatóink biztosítják, hogy csúcsminőségű képzésben részesüljön."
+      - "Rugalmas ütemezés: válassza ki az elfoglalt életstílusának megfelelő óraidőket."
+      - "Megfizethető árak: Versenyképes árakat és különleges csomagokat kínálunk az új tanulók számára."
+      - "Modern járművek: Tanuljon meg jól karbantartott, kettős vezérlésű autókban vezetni a biztonsága érdekében."
+      - "Magas átigazolási arányok: Bevált oktatási módszereink segítségével a tanulók könnyedén teljesítik a járművezetői vizsgákat."
+    services:
+      title: "Autósiskola szolgáltatásaink"
+      list:
+        - "Kezdő vezetési leckék: tökéletes új vezetők számára, akik önbizalmat szeretnének építeni a volán mögött."
+        - "Defenzív vezetési tanfolyamok: sajátítson el haladó technikákat, hogy biztonságban maradjon az úton."
+        - "Automatikus és kézi vezetési leckék: Válassza ki az Ön preferenciáinak leginkább megfelelő járműtípust."
+        - "Mock Driving Tests: Készüljön fel a hivatalos vezetési vizsgára valósághű gyakorlatokkal."
+        - "Intenzív vezetési tanfolyamok: Gyorsítsa fel a tanulást felgyorsított képzési programjainkkal."
+    how_to_get_started:
+      title: "Hogyan kezdjünk hozzá?"
+      steps:
+        - "Foglaljon ingyenes konzultációt: lépjen kapcsolatba velünk, hogy megbeszéljük vezetési céljait."
+        - "Válasszon leckecsomagot: Válassza ki az igényeinek és költségvetésének megfelelő legjobb tervet."
+        - "Kezdje el a leckéket: Barátságos oktatóink végigvezetik Önt minden lépésen."
+        - "Telje le a vizsgát: Szakértői képzésünkkel készen áll a vezetői vizsgára."
+  testimonials:
+    title: "Ügyfelek ajánlásai"
+    content: "Ne csak a szavunkat fogadja – hallgassa meg elégedett ügyfeleink véleményét! Több ezer ellenőrzött véleményünkkel biztosítjuk az átláthatóságot és a megbízhatóságot."
+  faq:
+    title: "Gyakran Ismételt Kérdések (GYIK)"
+    q1:
+      question: "Mennyi ideig tart a vezetői engedély megszerzése?"
+      answer_html: "A szükséges idő a tanulási ütemtől, az óra gyakoriságától és az ország szabályozásától függően változik. A legtöbb tanulónak <strong>20-40 óra</strong> szakmai oktatásra van szüksége."
+    q2:
+      question: "Mik a követelmények a vezetési oktatás megkezdéséhez?"
+      answer_intro: "A vezetési órák megkezdéséhez meg kell felelnie a következő kritériumoknak:"
+      requirements:
+        age: "Legyen a legalacsonyabb vezetési korhatár (pl. <strong>17 év</strong> a legtöbb európai országban)."
+        permit: "Érvényes ideiglenes vagy tanulói engedéllyel rendelkezik."
+        eyesight: "Tegyen át egy látástesztet, hogy megbizonyosodjon arról, hogy megfelel a követelményeknek."
+        id_documents: "Adjon meg azonosítót, például útlevelet vagy személyi igazolványt."
+    q3:
+      question: "Szükségem van ideiglenes engedélyre a tanulás megkezdéséhez?"
+      answer_html: "Igen, a legtöbb országban <strong>ideiglenes engedély</strong> szükséges a közutakon való leckékhez."
+    q4:
+      question: "Milyen típusú járműveket tanulhatok meg vezetni?"
+      answer_intro: "Iskolánk különféle járművekhez kínál képzést, beleértve:"
+      vehicle:
+        manual: "Kézi sebességváltós autók."
+        automatic: "Automatikus sebességváltós autók."
+        electric: "Elektromos járművek (EV)."
+    q5:
+      question: "Mennyibe kerül a vezetési oktatás?"
+      answer_html: "A költség az időtartamtól és a csomagtól függően változik. Az órák száma <strong>30 és 50 euró között mozoghat óránként</strong>."
+    q6:
+      question: "Hogyan készülhetek fel a vezetési elméleti vizsgára?"
+      answer_intro: "Az elméleti vizsga sikeres teljesítéséhez a következőket ajánljuk:"
+      prep:
+        study: "Tanulmányozza a hivatalos vezetési kézikönyvet."
+        exercise: "Vegyél online gyakorlati teszteket."
+        classes: "Vegyél részt elméleti felkészítő óráinkon."
+        apps: "Használjon vezetési alkalmazásokat és útmutatókat az extra gyakorláshoz."
+    footer_text: "Az előnyben részesített órai időpontok biztosítása érdekében azt javasoljuk, hogy előre foglaljon."
+contact:
+    title: "Lépjen kapcsolatba velünk"
+    name: "Név"
+    phone: "Telefonszám"
+    email: "Email cím"
+    location: "Helyszín"
+    message: "Üzenet"
+    submit: "Küldés"

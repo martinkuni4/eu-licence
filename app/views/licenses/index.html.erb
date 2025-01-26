@@ -1,104 +1,77 @@
 <div class="hero-about">
-    <div class="hero-about-overlay"></div>
-    <div class="hero-about-text">
-      <h1>Buy real and registered driver's license without exams</h1>
-      <p>We are the best company in Europe, and have proven ourselves in many markets as the best. And we will satisfy our customers.</p>
-        <%= form_with url: licenses_path, method: :get, local: true do %>
-          <%= label_tag :country, "Filter by Country:" %>
-          <%= select_tag :country, options_for_select(License.pluck(:country).uniq, params[:country]) %>
-          <%= submit_tag "Filter" %>
-        <% end %>
-        <button class="btn-cta">Contact Us</button>
-    </div>
-  </div>
-<div class="driving-school-content">
-<h1 style="text-align: center;"> Original and Authentic Driver's license</h1>
-<div class="license-container">
-  <% @licenses.each do |license| %>
-    <div class="license-card">
+  <div class="hero-about-overlay"></div>
+  <div class="hero-about-text">
+    <h1><%= t('index.title') %></h1>
+    <p><%= t('index.description') %></p>
 
-        <div class="license-image">
-          <% if license.photos.first.present? %>
-            <%= image_tag license.photos.first, height: 300, width: 400, crop: :fill, alt: license.keyword %>
-          <% else %>
-            <%= image_tag 'ji.JPG', height: 300, width: 400, crop: :fill, alt: 'Default bike image' %>
-          <% end %>
-        </div>
-        <div class="license-info">
-          <h2 class="license-title"><strong><%= license.keyword %> - €<%= license.cost %></strong></h2>
-          <p><strong></strong> </p>
-        </div>
-
-    </div>
+  <%= form_with url: licenses_path, method: :get, local: true do %>
+    <%= label_tag :country, t('index.filter_by_country') %>
+    <%= select_tag :country, options_for_select(License.pluck(:country).uniq, params[:country] || 'Hungary') %>
+    <%= submit_tag t('index.filter_button') %>
   <% end %>
+
+
+    <button class="btn-cta"><%= t('index.contact_us') %></button>
+  </div>
 </div>
 
-<div class="license-challenges">
-    <h1>Challenges of Getting a Driver's License in Europe</h1>
-    <p>Obtaining a driver's license in Europe can be a complex and challenging process due to the strict regulations and rigorous testing procedures. Each country has its own set of rules, but common challenges include:</p>
+<div class="driving-school-content">
+  <h1 style="text-align: center;"><%= t('licenses.heading') %></h1>
+
+  <div class="license-container">
+    <% @licenses.each do |license| %>
+      <%= link_to license_path(locale: set_locale_from_license(license), slug: license.slug), class: "license-link" do %>
+        <div class="license-card">
+          <div class="license-image">
+            <% if license.photos.first.present? %>
+              <%= image_tag license.photos.first, height: 300, width: 400, crop: :fill, alt: license.keyword %>
+            <% else %>
+              <%= image_tag 'ji.JPG', height: 300, width: 400, crop: :fill, alt: 'Default bike image' %>
+            <% end %>
+          </div>
+          <div class="license-info">
+            <h2 class="license-title"><strong><%= license.keyword %> - €<%= license.cost %></strong></h2>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+
+  <div class="license-challenges">
+    <h1><%= t('challenges.title') %></h1>
+    <p><%= t('challenges.content') %></p>
     <ul>
-        <li><strong>High Costs:</strong> Driving lessons, theory tests, and practical exams can be expensive, with costs varying significantly across countries.</li>
-        <li><strong>Strict Testing Requirements:</strong> Many European countries have difficult theory exams and practical tests that require extensive preparation.</li>
-        <li><strong>Long Waiting Times:</strong> In some regions, applicants face long waiting periods to schedule tests, which can delay the entire process.</li>
-        <li><strong>Language Barriers:</strong> For expatriates and immigrants, taking tests in a foreign language can be a major hurdle.</li>
-        <li><strong>Varying Regulations:</strong> Different traffic laws and road conditions across countries make it challenging for those moving within Europe to adapt.</li>
+      <% t('challenges.list').each do |challenge| %>
+        <li><strong><%= challenge %></strong></li>
+      <% end %>
     </ul>
-    <p>Despite these challenges, obtaining a European driver's license is highly valued, as it provides access to a well-developed road network and recognition across multiple countries.</p>
-</div>
+    <p><%= t('challenges.conclusion') %></p>
+  </div>
 
-    <h1>Get Your Driver's License with Our Top-Rated Driving School</h1>
-    <p>Looking to pass your driving test with confidence? Our <strong>professional driving school</strong> offers expert training to help you become a safe and skilled driver. Whether you're a beginner or need a refresher course, we provide personalized lessons to suit your needs.</p>
+  <h1><%= t('driving_school.title') %></h1>
+  <p><%= t('driving_school.description') %></p>
 
-    <div class="used-car-promo">
+  <div class="used-car-promo">
     <div class="promo-content">
-      <h2>Why Choose Our Driving School?</h2>
+      <h2><%= t('driving_school.why_choose.title') %></h2>
       <ul>
-          <li><strong>Experienced Instructors:</strong> Our certified and patient instructors ensure you receive top-notch training.</li>
-          <li><strong>Flexible Scheduling:</strong> Choose lesson times that fit your busy lifestyle.</li>
-          <li><strong>Affordable Prices:</strong> We offer competitive pricing and special packages for new learners.</li>
-          <li><strong>Modern Vehicles:</strong> Learn to drive in well-maintained, dual-controlled cars for your safety.</li>
-          <li><strong>High Pass Rates:</strong> Our proven teaching methods help students pass their driving tests with ease.</li>
+        <% t('driving_school.why_choose.list').each do |point| %>
+          <li><strong><%= point %></strong></li>
+        <% end %>
       </ul>
-      <button class="btn-cta">Contact</button>
-    </div>
-    <div class="promo-image">
-      <%= image_tag "teen.jpg", alt: "Finance" %>
-    </div>
-  </div>
-    <h2>Our Driving School Services</h2>
-    <p>We offer a wide range of driving courses, including:</p>
-    <ul>
-        <li><strong>Beginner Driving Lessons:</strong> Perfect for new drivers looking to build confidence behind the wheel.</li>
-        <li><strong>Defensive Driving Courses:</strong> Learn advanced techniques to stay safe on the road.</li>
-        <li><strong>Automatic & Manual Driving Lessons:</strong> Choose the type of vehicle that best suits your preferences.</li>
-        <li><strong>Mock Driving Tests:</strong> Prepare for your official driving test with realistic practice sessions.</li>
-        <li><strong>Intensive Driving Courses:</strong> Fast-track your learning with our accelerated training programs.</li>
-    </ul>
-    <div class="used-car-promo">
-    <div class="promo-content">
-      <h2>How to Get Started?</h2>
-        <p>Getting your driver's license has never been easier! Follow these simple steps to begin your journey:</p>
-        <ol>
-            <li><strong>Book a Free Consultation:</strong> Contact us to discuss your driving goals.</li>
-            <li><strong>Choose a Lesson Package:</strong> Select the best plan that fits your needs and budget.</li>
-            <li><strong>Start Your Lessons:</strong> Our friendly instructors will guide you through every step.</li>
-            <li><strong>Pass Your Test:</strong> With our expert training, you'll be ready to ace your driving exam.</li>
-        </ol>
-      <button class="btn-cta">Reach Out</button>
-    </div>
-    <div class="promo-image">
-      <%= image_tag "signs.jpeg", alt: "buy driver's license" %>
     </div>
   </div>
 
+  <h2><%= t('driving_school.services.title') %></h2>
+  <ul>
+    <% t('driving_school.services.list').each do |service| %>
+      <li><strong><%= service %></strong></li>
+    <% end %>
+  </ul>
 </div>
 <div id="reviews-container" data-controller="scroll">
-  <h2 style="text-align: center; margin: 10px;">Testimonials From Clients</h2>
-      <p style="text-align: center;">
-        Don’t just take our word for it—hear from our happy customers!
-        With thousands of verified reviews, we ensure transparency and trustworthiness
-      </p>
-
+  <h2 style="text-align: center; margin: 10px;"><%= t('testimonials.title') %></h2>
+  <p style="text-align: center;"><%= t('testimonials.content') %></p>
   <div class="reviews-row" data-scroll-target="row">
     <% @reviews.each do |review| %>
       <div class="review-card">

@@ -28,7 +28,94 @@
 #       enabled: "ON"
 
 en:
-  license:
-    car: "Car License"
-    cost: "Cost"
-    description: "Description"
+  index:
+    title: "Buy real and registered driver's license"
+    description: "We are the best company in Europe, and have proven ourselves in many markets as the best. And we will satisfy our customers."
+    filter_by_country: "Filter by Country:"
+    filter_button: "Filter"
+    contact_us: "Contact Us"
+  licenses:
+    heading: "Original and Authentic Driver's License"
+  challenges:
+    title: "Challenges of Getting a Driver's License in Europe"
+    content: "Obtaining a driver's license in Europe can be a complex and challenging process due to the strict regulations and rigorous testing procedures."
+    list:
+      - "High Costs: Driving lessons, theory tests, and practical exams can be expensive, with costs varying significantly across countries."
+      - "Strict Testing Requirements: Many European countries have difficult theory exams and practical tests that require extensive preparation."
+      - "Long Waiting Times: In some regions, applicants face long waiting periods to schedule tests, which can delay the entire process."
+      - "Language Barriers: For expatriates and immigrants, taking tests in a foreign language can be a major hurdle."
+      - "Varying Regulations: Different traffic laws and road conditions across countries make it challenging for those moving within Europe to adapt."
+    conclusion: "Despite these challenges, obtaining a European driver's license is highly valued, as it provides access to a well-developed road network and recognition across multiple countries."
+  driving_school:
+    title: "Get Your Driver's License with Our Top-Rated Driving School"
+    description: "Looking to pass your driving test with confidence? Our professional driving school offers expert training to help you become a safe and skilled driver."
+    why_choose:
+      title: "Why Choose Our Driving School?"
+      list:
+        - "Experienced Instructors: Our certified and patient instructors ensure you receive top-notch training."
+        - "Flexible Scheduling: Choose lesson times that fit your busy lifestyle."
+        - "Affordable Prices: We offer competitive pricing and special packages for new learners."
+        - "Modern Vehicles: Learn to drive in well-maintained, dual-controlled cars for your safety."
+        - "High Pass Rates: Our proven teaching methods help students pass their driving tests with ease."
+    services:
+      title: "Our Driving School Services"
+      list:
+        - "Beginner Driving Lessons: Perfect for new drivers looking to build confidence behind the wheel."
+        - "Defensive Driving Courses: Learn advanced techniques to stay safe on the road."
+        - "Automatic & Manual Driving Lessons: Choose the type of vehicle that best suits your preferences."
+        - "Mock Driving Tests: Prepare for your official driving test with realistic practice sessions."
+        - "Intensive Driving Courses: Fast-track your learning with our accelerated training programs."
+    how_to_get_started:
+      title: "How to Get Started?"
+      steps:
+        - "Book a Free Consultation: Contact us to discuss your driving goals."
+        - "Choose a Lesson Package: Select the best plan that fits your needs and budget."
+        - "Start Your Lessons: Our friendly instructors will guide you through every step."
+        - "Pass Your Test: With our expert training, you'll be ready to ace your driving exam."
+  testimonials:
+    title: "Testimonials From Clients"
+    content: "Don’t just take our word for it—hear from our happy customers! With thousands of verified reviews, we ensure transparency and trustworthiness."
+
+  faq:
+    title: "Frequently Asked Questions (FAQs)"
+    q1:
+      question: "How long does it take to get a driver's license?"
+      answer_html: "The time required varies based on learning pace, lesson frequency, and country regulations. Most learners need <strong>20 to 40 hours</strong> of professional instruction."
+    q2:
+      question: "What are the requirements to start driving lessons?"
+      answer_intro: "To begin your driving lessons, you need to meet the following criteria:"
+      requirements:
+        age: "Be of the minimum legal driving age (e.g., <strong>17 years</strong> in most European countries)."
+        permit: "Possess a valid provisional or learner’s permit."
+        eyesight: "Pass an eyesight test to ensure you meet the required standards."
+        id_documents: "Provide identification such as a passport or national ID card."
+    q3:
+      question: "Do I need a provisional license to start learning?"
+      answer_html: "Yes, in most countries, a <strong>provisional license</strong> is required before taking lessons on public roads."
+    q4:
+      question: "What types of vehicles can I learn to drive?"
+      answer_intro: "Our school offers training for various vehicles, including:"
+      vehicle:
+        manual: "Manual transmission cars."
+        automatic: "Automatic transmission cars."
+        electric: "Electric vehicles (EVs)."
+    q5:
+      question: "How much do driving lessons cost?"
+      answer_html: "The cost varies by duration and package. Lessons can range from <strong>€30 to €50 per hour</strong>."
+    q6:
+      question: "How can I prepare for the driving theory test?"
+      answer_intro: "To pass your theory test, we recommend:"
+      prep:
+        study: "Study the official driving handbook."
+        practice: "Take online practice tests."
+        classes: "Attend our theory preparation classes."
+        apps: "Use driving apps and guides for extra practice."
+    footer_text: "We recommend booking in advance to secure your preferred lesson times."
+  contact:
+    title: "Contact Us"
+    name: "Your Name"
+    phone: "Phone Number"
+    email: "Email Address"
+    location: "Your Location"
+    message: "Your Message"
+    submit: "Submit"

@@ -1,7 +1,7 @@
 # UK Driving License
 uk_license = License.create!(
   country: 'UK',
-  keyword: "Buy driver's license",
+  keyword: "Buy drivers license",
   category: 'Car',
   cost: 1000.50,
   description: "Buy a driver's license without taking an exam or practical test. Buy a driver's license. Many people find it challenging to legally buy a driver's license in Europe. For example, getting a license without a test. buy a driver's license

@@ -1,29 +1,42 @@
 class LicensesController < ApplicationController
   before_action :set_locale
+  before_action :set_license, only: [:show]
 
   def index
-    if params[:query].present?
-      @licenses = License.where("keywords LIKE ?", "%#{params[:query]}%")
-    else
-      @licenses = License.limit(6)
-    end
+    @licenses = if params[:query].present?
+                  License.where("country ILIKE ?", "%#{params[:query]}%")
+                else
+                  License.limit(6)
+                end
     @reviews = Review.all
   end
 
-  def Show
-    @license = License.find(params[:id])
+  def show
+    @reviews = Review.all
+  end
+
+  def about
+  end
+
+  def faq; end
+
+  private
+
+  def set_license
+    @license = License.friendly.find_by(slug: params[:slug])
+
+    unless @license
+      redirect_to licenses_path, alert: t('licenses.not_found')
+    end
   end
 
   def set_locale
-    case params[:country]
-    when 'UK'
-      I18n.locale = :en
-    when 'Germany'
-      I18n.locale = :de
-    when 'Hungary'
-      I18n.locale = :hu
-    else
-      I18n.locale = I18n.default_locale
-    end
+    locale_mapping = {
+      'UK' => :en,
+      'Germany' => :de,
+      'Hungary' => :hu
+    }
+
+    I18n.locale = locale_mapping[params[:country]] || I18n.default_locale
   end
 end
