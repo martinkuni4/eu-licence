@@ -82,5 +82,4 @@ test:
 #
 production:
   <<: *default
-  database: eu_licence_production
   url: <%= ENV['DATABASE_URL'] %>
