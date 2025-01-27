@@ -12,4 +12,4 @@ require 'open-uri'
 puts "Deleting all licences"
 License.destroy_all
 require_relative "seeds/licenses.rb"
-# require_relative "seeds/review.rb"
+require_relative "seeds/review.rb"

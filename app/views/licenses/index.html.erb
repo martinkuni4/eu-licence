@@ -24,7 +24,7 @@
         <div class="license-card">
           <div class="license-image">
             <% if license.photos.first.present? %>
-              <%= image_tag license.photos.first, height: 300, width: 400, crop: :fill, alt: license.keyword %>
+              <%= cl_image_tag license.photos.first, height: 300, width: 400, crop: :fill, alt: license.keyword %>
             <% else %>
               <%= image_tag 'ji.JPG', height: 300, width: 400, crop: :fill, alt: 'Default bike image' %>
             <% end %>
