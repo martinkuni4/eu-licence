@@ -1,0 +1,92 @@
+nl:
+  index:
+    title: "Koop een echt en geregistreerd rijbewijs"
+    description: "Wij zijn het beste bedrijf in Europa en hebben ons in veel markten bewezen als de beste."
+    filter_by_country: "Filter op land:"
+    filter_button: "Filter"
+    contact_us: "Neem contact op"
+  licenses:
+    heading: "Origineel en authentiek rijbewijs"
+  challenges:
+    title: "Uitdagingen bij het behalen van een rijbewijs in Europa"
+    content: "Het verkrijgen van een rijbewijs in Europa kan een complex en uitdagend proces zijn vanwege de strikte regelgeving en rigoureuze testprocedures."
+    list:
+      - "Hoge kosten: Rijlessen, theorie-examens en praktijkexamens kunnen duur zijn, met sterk variërende kosten per land."
+      - "Strenge testvereisten: Veel Europese landen hebben moeilijke theorie-examens en praktijktoetsen die uitgebreide voorbereiding vereisen."
+      - "Lange wachttijden: In sommige regio’s moeten kandidaten lang wachten om examens te plannen, wat het proces kan vertragen."
+      - "Taalbarrières: Voor expats en immigranten kan het afleggen van examens in een vreemde taal een grote uitdaging zijn."
+      - "Verschillende regels: Verschillende verkeersregels en wegomstandigheden per land maken het lastig voor mensen die binnen Europa verhuizen om zich aan te passen."
+    conclusion: "Ondanks deze uitdagingen wordt een Europees rijbewijs zeer gewaardeerd, omdat het toegang biedt tot een goed ontwikkeld wegennet en erkenning in meerdere landen."
+  driving_school:
+    title: "Behaal je rijbewijs met onze hooggewaardeerde rijschool"
+    description: "Wil je met vertrouwen je rijexamen halen? Onze professionele rijschool biedt deskundige training om je te helpen een veilige en vaardige bestuurder te worden."
+    why_choose:
+      title: "Waarom kiezen voor onze rijschool?"
+      list:
+        - "Ervaren instructeurs: Onze gecertificeerde en geduldige instructeurs zorgen ervoor dat je toptraining krijgt."
+        - "Flexibele planning: Kies lestijden die passen bij jouw drukke agenda."
+        - "Betaalbare prijzen: Wij bieden concurrerende tarieven en speciale pakketten voor nieuwe leerlingen."
+        - "Moderne voertuigen: Leer rijden in goed onderhouden, dubbel bediende auto’s voor jouw veiligheid."
+        - "Hoge slagingspercentages: Onze bewezen lesmethoden helpen studenten moeiteloos hun rijexamens te halen."
+    services:
+      title: "Onze diensten bij de rijschool"
+      list:
+        - "Beginner rijlessen: Perfect voor nieuwe bestuurders die vertrouwen willen opbouwen achter het stuur."
+        - "Defensieve rijcursussen: Leer geavanceerde technieken om veilig te blijven op de weg."
+        - "Automatische en handgeschakelde rijlessen: Kies het type voertuig dat het beste bij jou past."
+        - "Oefen rijexamens: Bereid je voor op je officiële rijexamen met realistische oefensessies."
+        - "Intensieve rijcursussen: Versnel je leerproces met onze versnelde trainingsprogramma's."
+    how_to_get_started:
+      title: "Hoe te beginnen?"
+      steps:
+        - "Boek een gratis consult: Neem contact met ons op om je rijdoelen te bespreken."
+        - "Kies een lespakket: Selecteer het beste plan dat bij jouw behoeften en budget past."
+        - "Begin je lessen: Onze vriendelijke instructeurs begeleiden je bij elke stap."
+        - "Haal je examen: Met onze deskundige training ben je klaar om te slagen voor je rijexamen."
+  testimonials:
+    title: "Ervaringen van klanten"
+    content: "Geloof ons niet op ons woord—lees de ervaringen van onze tevreden klanten! Met duizenden geverifieerde beoordelingen zorgen wij voor transparantie en vertrouwen."
+
+  faq:
+    title: "Veelgestelde vragen (FAQ)"
+    q1:
+      question: "Hoe lang duurt het om een rijbewijs te halen?"
+      answer_html: "De benodigde tijd varieert afhankelijk van je leertempo, frequentie van lessen en regelgeving in het land. De meeste leerlingen hebben <strong>20 tot 40 uur</strong> professionele instructie nodig."
+    q2:
+      question: "Wat zijn de vereisten om te beginnen met rijlessen?"
+      answer_intro: "Om te beginnen met rijlessen moet je voldoen aan de volgende criteria:"
+      requirements:
+        age: "De minimale wettelijke rijleeftijd hebben (bijv. <strong>17 jaar</strong> in de meeste Europese landen)."
+        permit: "In het bezit zijn van een geldig voorlopig rijbewijs of leerlingvergunning."
+        eyesight: "Een oogtest halen om aan de vereiste normen te voldoen."
+        id_documents: "Identiteitsdocumenten zoals een paspoort of nationale identiteitskaart overleggen."
+    q3:
+      question: "Heb ik een voorlopig rijbewijs nodig om te starten?"
+      answer_html: "Ja, in de meeste landen is een <strong>voorlopig rijbewijs</strong> vereist voordat je lessen op openbare wegen kunt volgen."
+    q4:
+      question: "Voor welke voertuigen kan ik leren rijden?"
+      answer_intro: "Onze school biedt training voor verschillende voertuigen, waaronder:"
+      vehicle:
+        manual: "Handgeschakelde auto’s."
+        automatic: "Automatische auto’s."
+        electric: "Elektrische voertuigen (EVs)."
+    q5:
+      question: "Wat kosten rijlessen?"
+      answer_html: "De kosten variëren per duur en pakket. Lessen kosten doorgaans tussen de <strong>€30 en €50 per uur</strong>."
+    q6:
+      question: "Hoe kan ik me voorbereiden op het theorie-examen?"
+      answer_intro: "Om te slagen voor je theorie-examen raden wij aan:"
+      prep:
+        study: "Studeer het officiële rijhandboek."
+        practice: "Maak online oefenexamens."
+        classes: "Volg onze theorielessen."
+        apps: "Gebruik apps en gidsen voor extra oefening."
+    footer_text: "Wij raden aan om van tevoren te boeken om jouw voorkeurstijden te garanderen."
+  contact:
+    title: "Neem contact op"
+    name: "Jouw naam"
+    phone: "Telefoonnummer"
+    email: "E-mailadres"
+    location: "Jouw locatie"
+    message: "Jouw bericht"
+    submit: "Verstuur"

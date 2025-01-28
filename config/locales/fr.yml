@@ -1,0 +1,92 @@
+fr:
+  index:
+    title: "Achetez un permis de conduire réel et enregistré"
+    description: "Nous sommes la meilleure entreprise en Europe et nous nous sommes prouvés comme les meilleurs sur de nombreux marchés."
+    filter_by_country: "Filtrer par pays :"
+    filter_button: "Filtrer"
+    contact_us: "Contactez-nous"
+  licenses:
+    heading: "Permis de conduire original et authentique"
+  challenges:
+    title: "Les défis pour obtenir un permis de conduire en Europe"
+    content: "Obtenir un permis de conduire en Europe peut être un processus complexe et difficile en raison des réglementations strictes et des procédures d'examen rigoureuses."
+    list:
+      - "Coûts élevés : Les cours de conduite, les tests théoriques et les examens pratiques peuvent être coûteux, avec des coûts variant considérablement selon les pays."
+      - "Exigences strictes des tests : De nombreux pays européens ont des examens théoriques et pratiques difficiles qui nécessitent une préparation approfondie."
+      - "Longs délais d'attente : Dans certaines régions, les candidats doivent attendre longtemps pour planifier des examens, ce qui peut retarder tout le processus."
+      - "Barrières linguistiques : Pour les expatriés et les immigrés, passer des tests dans une langue étrangère peut être un obstacle majeur."
+      - "Réglementations variables : Les différentes lois de la route et les conditions routières selon les pays rendent l'adaptation difficile pour ceux qui déménagent en Europe."
+    conclusion: "Malgré ces défis, obtenir un permis de conduire européen est très apprécié, car il offre un accès à un réseau routier bien développé et une reconnaissance dans plusieurs pays."
+  driving_school:
+    title: "Obtenez votre permis de conduire avec notre école de conduite hautement classée"
+    description: "Vous souhaitez réussir votre examen de conduite en toute confiance ? Notre école de conduite professionnelle propose une formation experte pour vous aider à devenir un conducteur sûr et compétent."
+    why_choose:
+      title: "Pourquoi choisir notre auto-école ?"
+      list:
+        - "Instructeurs expérimentés : Nos instructeurs certifiés et patients vous assurent une formation de qualité supérieure."
+        - "Horaires flexibles : Choisissez des horaires de cours adaptés à votre emploi du temps chargé."
+        - "Prix abordables : Nous proposons des tarifs compétitifs et des forfaits spéciaux pour les nouveaux conducteurs."
+        - "Véhicules modernes : Apprenez à conduire dans des voitures bien entretenues et équipées de doubles commandes pour votre sécurité."
+        - "Taux de réussite élevé : Nos méthodes d'enseignement éprouvées aident les élèves à réussir leurs examens de conduite avec facilité."
+    services:
+      title: "Nos services d'auto-école"
+      list:
+        - "Cours pour débutants : Parfait pour les nouveaux conducteurs souhaitant gagner en confiance au volant."
+        - "Cours de conduite défensive : Apprenez des techniques avancées pour rester en sécurité sur la route."
+        - "Leçons sur voiture automatique et manuelle : Choisissez le type de véhicule qui vous convient le mieux."
+        - "Examens blancs : Préparez-vous à votre examen officiel avec des séances d'entraînement réalistes."
+        - "Cours intensifs : Accélérez votre apprentissage avec nos programmes de formation accélérée."
+    how_to_get_started:
+      title: "Comment commencer ?"
+      steps:
+        - "Réservez une consultation gratuite : Contactez-nous pour discuter de vos objectifs de conduite."
+        - "Choisissez un forfait : Sélectionnez le plan qui correspond à vos besoins et à votre budget."
+        - "Commencez vos cours : Nos instructeurs sympathiques vous guideront à chaque étape."
+        - "Passez votre examen : Avec notre formation experte, vous serez prêt à réussir votre examen de conduite."
+  testimonials:
+    title: "Avis de nos clients"
+    content: "Ne vous fiez pas uniquement à notre parole—écoutez nos clients satisfaits ! Avec des milliers d'avis vérifiés, nous garantissons transparence et fiabilité."
+
+  faq:
+    title: "Questions fréquentes (FAQ)"
+    q1:
+      question: "Combien de temps faut-il pour obtenir un permis de conduire ?"
+      answer_html: "Le temps nécessaire dépend de la vitesse d'apprentissage, de la fréquence des cours et des réglementations du pays. La plupart des élèves ont besoin de <strong>20 à 40 heures</strong> d'instruction professionnelle."
+    q2:
+      question: "Quelles sont les conditions pour commencer les cours de conduite ?"
+      answer_intro: "Pour commencer vos cours de conduite, vous devez remplir les critères suivants :"
+      requirements:
+        age: "Avoir l'âge minimum légal pour conduire (par exemple, <strong>17 ans</strong> dans la plupart des pays européens)."
+        permit: "Posséder un permis provisoire ou un permis d'apprenti valide."
+        eyesight: "Réussir un test de vision pour s'assurer que vous répondez aux normes requises."
+        id_documents: "Fournir une pièce d'identité, comme un passeport ou une carte d'identité nationale."
+    q3:
+      question: "Ai-je besoin d'un permis provisoire pour commencer à apprendre ?"
+      answer_html: "Oui, dans la plupart des pays, un <strong>permis provisoire</strong> est requis avant de suivre des cours sur les routes publiques."
+    q4:
+      question: "Quels types de véhicules puis-je apprendre à conduire ?"
+      answer_intro: "Notre école propose des formations pour différents véhicules, notamment :"
+      vehicle:
+        manual: "Voitures à boîte manuelle."
+        automatic: "Voitures à boîte automatique."
+        electric: "Véhicules électriques (VE)."
+    q5:
+      question: "Combien coûtent les cours de conduite ?"
+      answer_html: "Les coûts varient en fonction de la durée et du forfait. Les cours coûtent généralement entre <strong>30 € et 50 € par heure</strong>."
+    q6:
+      question: "Comment puis-je me préparer à l'examen théorique de conduite ?"
+      answer_intro: "Pour réussir votre examen théorique, nous vous recommandons :"
+      prep:
+        study: "Étudiez le manuel officiel de conduite."
+        practice: "Faites des examens blancs en ligne."
+        classes: "Assistez à nos cours de préparation théorique."
+        apps: "Utilisez des applications et des guides pour vous entraîner davantage."
+    footer_text: "Nous vous recommandons de réserver à l'avance pour garantir vos horaires préférés."
+  contact:
+    title: "Contactez-nous"
+    name: "Votre nom"
+    phone: "Numéro de téléphone"
+    email: "Adresse e-mail"
+    location: "Votre emplacement"
+    message: "Votre message"
+    submit: "Envoyer"

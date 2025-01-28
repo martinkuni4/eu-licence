@@ -17,7 +17,7 @@ module EuLicence
     config.autoload_lib(ignore: %w(assets tasks))
     # config.i18n.available_locales = %w[en de hu]
     # config.i18n.default_locale = :en  # Default language
-    config.i18n.available_locales = [:en, :hu, :de]  # Allowed locales
+    config.i18n.available_locales = [:en, :hu, :de, :nl, :fr]  # Allowed locales
     # config.i18n.fallbacks = true  # Use fallback locales if a translation is missing
     config.i18n.default_locale = :hu
 

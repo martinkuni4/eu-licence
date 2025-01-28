@@ -34,7 +34,12 @@ class LicensesController < ApplicationController
     locale_mapping = {
       'UK' => :en,
       'Germany' => :de,
-      'Hungary' => :hu
+      'Hungary' => :hu,
+      'Austria' => :de,
+      'Netherlands' => :nl,
+      'Belgium' => :nl,
+      'France' => :fr
+
     }
 
     I18n.locale = locale_mapping[params[:country]] || I18n.default_locale
