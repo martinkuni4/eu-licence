@@ -10,6 +10,14 @@
 
 require 'open-uri'
 puts "Deleting all licences"
-License.destroy_all
-require_relative "seeds/licenses.rb"
+puts "creating a user"
+User.destroy_all
+User.create!(
+  email: "martinkunis114@gmail.com",
+  password: "quan671981743",
+  password_confirmation: "quan671981743"
+)
+# License.destroy_all
+# require_relative "seeds/licenses.rb"
+Review.destroy_all
 require_relative "seeds/review.rb"

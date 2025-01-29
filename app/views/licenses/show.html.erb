@@ -24,12 +24,8 @@
     </div>
   </div>
 <div id="reviews-container" data-controller="scroll">
-  <h2 style="text-align: center; margin: 10px;">Testimonials From Clients</h2>
-      <p style="text-align: center;">
-        Don’t just take our word for it—hear from our happy customers!
-        With thousands of verified reviews, we ensure transparency and trustworthiness
-      </p>
-
+  <h2 style="text-align: center; margin: 10px;"><%= t('testimonials.title') %></h2>
+  <p style="text-align: center;"><%= t('testimonials.content') %></p>
   <div class="reviews-row" data-scroll-target="row">
     <% @reviews.each do |review| %>
       <div class="review-card">

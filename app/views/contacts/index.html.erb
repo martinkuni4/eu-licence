@@ -1,6 +1,10 @@
 <!-- app/views/contacts/index.html.erb -->
 <h1><%= t('contact.title') %></h1>
-
+<% if user_signed_in? %>
+  <%= button_to "sign out", destroy_user_session_path, method: :delete, class: "btn-primary" %>
+<% else %>
+  <%= button_to "Sign-in", new_user_session_path, class: "btn-primary" %>
+<% end %>
 <table class="table">
   <thead>
     <tr>

@@ -1,7 +1,7 @@
 Review.destroy_all
 puts "all reviews are pre deleted"
 review1 = Review.create!(
-  comment: "Great experience, very informative lessons!",
+  comment: "Nagyszerű élmény, nagyon informatív leckék!",
   rating: 4,
   name: "John Doe",
 )
@@ -9,7 +9,7 @@ review1_url = "https://res.cloudinary.com/daa1jg6ga/image/upload/v1737513942/187
 review1.photo.attach(io: URI.open(review1_url), filename: "toyota-camry-2020.jpg", content_type: "image/jpg")
 
 review2 = Review.create!(
-  comment: "The instructor was patient and helped me feel confident.",
+  comment: "Az oktató türelmes volt, és segített, hogy magabiztosan érezzem magam.",
   rating: 5,
   name: "Jane Smith",
 )
@@ -17,7 +17,7 @@ review2_url = "https://res.cloudinary.com/daa1jg6ga/image/upload/v1737513942/e5d
 review2.photo.attach(io: URI.open(review2_url), filename: "toyota-camry-2020.jpg", content_type: "image/jpg")
 
 review3 = Review.create!(
-  comment: "Very professional, excellent service! Highly recommend.",
+  comment: "Nagyon profi, kiváló kiszolgálás! Nagyon ajánlom.",
   rating: 4,
   name: "Alice Brown",
 )
@@ -40,7 +40,7 @@ review5 = Review.create!(
 review5_url = "https://res.cloudinary.com/daa1jg6ga/image/upload/v1737513935/366cc799-6c94-4551-b806-87a2f3ae8e83_nnpsbu.jpg"
 review5.photo.attach(io: URI.open(review5_url), filename: "toyota-camry-2020.jpg", content_type: "image/jpg")
 review6 = Review.create!(
-  comment: "Excellent driving school. The instructors are really helpful and supportive.",
+  comment: "Kiváló autósiskola. Az oktatók nagyon segítőkészek és segítőkészek.",
   rating: 5,
   name: "Lucas Green",
 )
@@ -48,7 +48,7 @@ review6_url = "https://res.cloudinary.com/daa1jg6ga/image/upload/v1737513935/9fa
 review6.photo.attach(io: URI.open(review6_url), filename: "toyota-camry-2020.jpg", content_type: "image/jpg")
 
 review7 = Review.create!(
-  comment: "The lessons are thorough, but the scheduling could be more flexible.",
+  comment: "Az órák alaposak, de az ütemezés lehetne rugalmasabb.",
   rating: 4,
   name: "Olivia White",
 )
@@ -64,7 +64,7 @@ review8_url = "https://res.cloudinary.com/daa1jg6ga/image/upload/v1737513931/98f
 review8.photo.attach(io: URI.open(review8_url), filename: "toyota-camry-2020.jpg", content_type: "image/jpg")
 
 review9 = Review.create!(
-  comment: "Very professional, but I expected more from the practice tests.",
+  comment: "Très professionnel, mais j'attendais plus des tests pratiques.",
   rating: 4,
   name: "Sophia Adams",
 )
@@ -72,14 +72,14 @@ review9_url = "https://res.cloudinary.com/daa1jg6ga/image/upload/v1737513931/f0a
 review9.photo.attach(io: URI.open(review9_url), filename: "toyota-camry-2020.jpg", content_type: "image/jpg")
 
 review10 = Review.create!(
-  comment: "I failed my test twice before, but with their help, I passed the third time!",
+  comment: "Ich habe meine Prüfung schon zweimal nicht bestanden, aber mit ihrer Hilfe habe ich das dritte Mal bestanden!",
   rating: 5,
   name: "James Lee",
 )
 review10_url = "https://res.cloudinary.com/daa1jg6ga/image/upload/v1737513931/0904f1ea-9812-4bbc-9d1a-3fa76bb43d09_ejwveh.jpg"
 review10.photo.attach(io: URI.open(review10_url), filename: "toyota-camry-2020.jpg", content_type: "image/jpg")
 review11 = Review.create!(
-  comment: "Amazing driving school. The instructors are really knowledgeable and patient!",
+  comment: "Tolle Fahrschule. Die Lehrer sind wirklich kompetent und geduldig!",
   rating: 5,
   name: "Ethan Clark",
 )
@@ -87,7 +87,7 @@ review11_url = "https://res.cloudinary.com/daa1jg6ga/image/upload/v1737513930/4d
 review11.photo.attach(io: URI.open(review11_url), filename: "toyota-camry-2020.jpg", content_type: "image/jpg")
 
 review12 = Review.create!(
-  comment: "The lessons were good, but I felt a bit rushed during the last few classes.",
+  comment: "Der Unterricht war gut, aber ich fühlte mich in den letzten Unterrichtsstunden etwas gehetzt.",
   rating: 3,
   name: "Mia Martinez",
 )
@@ -111,7 +111,7 @@ review14_url = "https://res.cloudinary.com/daa1jg6ga/image/upload/v1737513925/e5
 review14.photo.attach(io: URI.open(review14_url), filename: "toyota-camry-2020.jpg", content_type: "image/jpg")
 
 review15 = Review.create!(
-  comment: "I passed my driving test easily after taking a few lessons here. Highly recommend!",
+  comment: "Ich habe meine Fahrprüfung problemlos bestanden, nachdem ich hier ein paar Unterrichtsstunden genommen hatte. Sehr empfehlenswert!",
   rating: 5,
   name: "William Harris",
 )

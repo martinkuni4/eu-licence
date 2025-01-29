@@ -1,35 +1,35 @@
 <footer class="footer">
   <div class="footer-container">
     <div class="footer-section">
-      <h3>Contact Us</h3>
+      <h3><%= t('footer.contact_us') %></h3>
       <ul>
-        <li>📞 +447436929150 </li>
-        <li>📍 Main Street, Budapest, Hungary</li>
-        <li>✉️ martinkunis114@gmail.com</li>
+        <li><%= t('footer.phone') %></li>
+        <li><%= t('footer.address') %></li>
+        <li><%= t('footer.email') %></li>
       </ul>
     </div>
 
     <div class="footer-section">
-      <h3>Quick Links</h3>
+      <h3><%= t('footer.quick_links') %></h3>
       <ul>
-        <li><a href="/about">About Us</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/faq">FAQ</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><%= link_to t('footer.about'), about_licenses_path %></li>
+        <li><%= link_to t('footer.services'), new_contact_path %></li>
+        <li><%= link_to t('footer.faq'), faq_licenses_path %></li>
+        <li><%= link_to t('footer.contact'), new_contact_path %></li>
       </ul>
     </div>
 
     <div class="footer-section">
-      <h3>Our Branches</h3>
+      <h3><%= t('footer.our_branches') %></h3>
       <ul>
-        <li>🏢 Budapest, Hungary</li>
-        <li>🏢 Berlin, Germany</li>
-        <li>🏢 London, UK</li>
+        <li><%= t('footer.branch1') %></li>
+        <li><%= t('footer.branch2') %></li>
+        <li><%= t('footer.branch3') %></li>
       </ul>
     </div>
   </div>
 
   <div class="footer-bottom">
-    <p>&copy; 2025 EU cards. All Rights Reserved.</p>
+    <p><%= t('footer.copyright') %></p>
   </div>
 </footer>
