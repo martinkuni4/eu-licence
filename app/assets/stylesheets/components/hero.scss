@@ -32,3 +32,14 @@
 .hero-about-text p {
   font-size: 1.2rem;
 }
+
+@media (max-width: 768px){
+  .hero-about-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .hero-about-text p {
+    font-size: 1rem;
+  }
+}
