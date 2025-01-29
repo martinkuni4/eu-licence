@@ -164,11 +164,31 @@ body {
   bottom: 20px;
   right: 20px;
   z-index: 9999;
+  animation: heartbeat 1.5s infinite;
 }
 
 #whatsapp-button img {
   border-radius: 50%;
 }
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 
 // Responsive design adjustments
 @media (max-width: 768px) {

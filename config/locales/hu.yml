@@ -89,3 +89,5 @@ hu:
     location: "Helyszín"
     message: "Üzenet"
     submit: "Küldés"
+  nav:
+    head: "EU-KÁRTYÁK"

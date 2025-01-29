@@ -90,3 +90,5 @@ nl:
     location: "Jouw locatie"
     message: "Jouw bericht"
     submit: "Verstuur"
+  nav:
+    head: "EU-KAARTEN"

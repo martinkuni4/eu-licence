@@ -90,3 +90,5 @@ fr:
     location: "Votre emplacement"
     message: "Votre message"
     submit: "Envoyer"
+  nav:
+    head: "CARTES UE"

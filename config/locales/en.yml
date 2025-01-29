@@ -119,3 +119,5 @@ en:
     location: "Your Location"
     message: "Your Message"
     submit: "Submit"
+  nav:
+    head: "EU-CARDS"

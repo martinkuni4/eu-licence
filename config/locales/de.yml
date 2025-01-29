@@ -90,3 +90,5 @@ de:
     location: "Dein Standort"
     message: "Deine Nachricht"
     submit: "Absenden"
+  nav:
+    head: "EU-KARTEN"
